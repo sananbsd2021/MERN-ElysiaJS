@@ -1,0 +1,31 @@
+{
+    "name": "elysia-backend",
+    "version": "1.0.0",
+    "main": "src/server.ts",
+    "scripts": {
+        "dev": "bun --watch src/server.ts",
+        "start": "bun src/server.ts",
+        "db:push": "prisma db push",
+        "db:studio": "prisma studio",
+        "db:generate": "prisma generate"
+    },
+    "dependencies": {
+        "@elysiajs/cors": "latest",
+        "@elysiajs/jwt": "latest",
+        "@elysiajs/swagger": "latest",
+        "@prisma/client": "^6.0.0",
+        "@sinclair/typebox": "latest",
+        "bcryptjs": "latest",
+        "elysia": "latest",
+        "pino": "latest",
+        "pino-pretty": "latest",
+        "redis": "latest"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "latest",
+        "@types/node": "latest",
+        "bun-types": "latest",
+        "prisma": "^6.0.0",
+        "typescript": "latest"
+    }
+}

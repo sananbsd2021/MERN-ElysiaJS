@@ -1,0 +1,5 @@
+[install]
+cache = true
+
+[run]
+enableSRI = true
